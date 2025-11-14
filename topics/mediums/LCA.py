@@ -20,8 +20,6 @@ class Solution:
             next_node = node.left if target.val < node.val else node.right
             return dfs(next_node, target, path)
 
-            return [node] + path
-
         p_traversal = dfs(root, p, [])
         q_traversal = dfs(root, q, [])
         prev = root

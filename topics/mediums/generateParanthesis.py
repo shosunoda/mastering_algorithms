@@ -1,3 +1,4 @@
+from typing import List
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
         # we are given n pairs of parenthesis
