@@ -1,3 +1,4 @@
+from typing import List
 class Solution:
     def maxProfit(self, k: int, prices: List[int]) -> int:
         # so apparently the opimum choice is here to buy 0, sell3, buy 1, sell 4
