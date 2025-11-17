@@ -7,10 +7,6 @@ class Solution:
         #   takes 1 hours, 1 hour, 7 hours, 3 hours, 12 hours 
         # very clearly, we need to process them in terms of speed and position
         # why, so firtly we weant to start from the position closest to the destination
-        # and then process the time of arrival then
-        # if a time is faterh than the oens already processd, we know it becomes a fleet 
-        # and the number of fleets is the nmber of cars that get merged 
-        #
         processed = sorted(zip(position, speed), reverse = True)
         speed = [(target - position)/ speed for position, speed in processed]
         stack = []
