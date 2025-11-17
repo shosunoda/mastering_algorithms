@@ -5,7 +5,6 @@ class Solution:
         result = []
 
         def dfs(index, path, total):
-            # base cases
             if total == target:
                 result.append(path[:])
                 return
