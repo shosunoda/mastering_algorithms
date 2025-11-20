@@ -13,6 +13,3 @@ class Solution:
             r = furthest
             jumps += 1
         return jumps
-
-
-        
