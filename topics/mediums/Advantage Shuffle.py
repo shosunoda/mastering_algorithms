@@ -22,4 +22,3 @@ class Solution:
                 result[nums2map[right][1]] = num
                 right -= 1
         return result
-        

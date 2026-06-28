@@ -3,7 +3,6 @@ class Solution:
     def partition(self, s: str) -> List[List[str]]:
         # so i mean we ahve to try and split into palndromes 
         # that means we can split a string if it is a plaindrome
-        # so let us do that
         result = []
         def isPalindrome(palindrome):
             return palindrome == palindrome[::-1]

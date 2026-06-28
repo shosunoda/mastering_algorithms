@@ -32,5 +32,3 @@ class Solution:
                     queue.append(cur_node.right)
             result.append(cur_level)
         return result
-
-        
