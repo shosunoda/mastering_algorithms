@@ -1,3 +1,4 @@
+from typing import List, Tuple
 class Solution:
     def numOfStrings(self, patterns: List[str], word: str) -> int:
         # 

@@ -1,5 +1,7 @@
-from heapq import heapify, heappush, heappop 
+from heapq import heappush, heappop 
 from collections import deque
+from typing import List, Tuple
+
 class Solution:
     def assignTasks(self, servers: List[int], tasks: List[int]) -> List[int]:
         #  we are given two arrays, servers and tasks of length 
@@ -31,6 +33,3 @@ class Solution:
             answer[task_index] = free_index
             heappush(tasks_queue, (time + task_duration, free_index))
         return answer
-
-
-

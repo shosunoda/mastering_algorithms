@@ -1,4 +1,5 @@
 from collections import deque
+from typing import List, Tuple
 class Solution:
     def canVisitAllRooms(self, rooms: List[List[int]]) -> bool:
         #  there are n rooms labelled from 0 to n-1
